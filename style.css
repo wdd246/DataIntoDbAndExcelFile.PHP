@@ -1,0 +1,116 @@
+    body,html{
+        margin:0;
+        padding:0;
+    }
+	
+    #form{
+        width:50%;
+        //border:1px solid black;
+		background-color:#f1f4f9;
+    }  
+	
+    #imie{
+        width:35%;
+    }
+	
+    #nazwisko{
+        width:45%;
+    }
+	
+    #email{
+        width:45%;
+    }
+	
+    #tel{
+        width:35%;
+    }
+	
+    #ulica{
+        width: 55%;
+    }
+	
+    #dom, #lokal{
+        width:9%;
+		margin-left:3.15% !important;
+		margin-right:-1% !important;
+    }  
+	
+    #kod{
+        width:30%;
+    }
+    #miejscowosc{
+        width:50%
+    }
+	
+    #imie_dziecka,#rok_dziecka{
+        width:40%;
+    }
+	
+	input{
+		padding:1.5%;
+		margin-top:0%;
+		margin-right:0%;
+		margin-bottom:2%;
+		margin-left:2%;
+		border-radius:3px;
+		box-shadow: 3px 3px 2px #c0c4c7;
+		text-decoration:none;
+		border:0px;
+	}
+	
+		input:focus{
+		outline:none;
+	}
+	
+	input[type=checkbox]{
+		box-shadow: 0px 0px 0px #c0c4c7 !important;
+		height:17px;
+		width:17px;
+	}
+
+	#sub{
+		height:100px;
+		width:36%;
+		background-color:#75ae2b;
+		color:white;
+		text-align:center;
+		margin:0 auto 3% auto;
+		display:block;
+		text-decoration:none;
+		font-size:42px;
+		cursor:pointer;
+		border-radius:10px;
+		outline:none;
+	}
+	
+	#sub:hover{
+		background-color:#80bd35;
+	}
+	
+	#sub:active{
+		background-color:#6ba024;
+	}
+    #error{
+        width: 25%;
+        height: 50px;
+        border:solid 2px red;
+        color:red;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 20px;
+        line-height: 50px;
+         margin-left: 12.5%;
+        margin-top: 10px;
+    }
+    #success{
+        margin:0 auto;
+        width:50%;
+        height:100px;
+        line-height: 100px;
+        border:2px solid green;
+        border-radius:10px;
+        text-align: center;
+        color:green;
+        font-size:30px;
+        margin-top:30px;
+    }
