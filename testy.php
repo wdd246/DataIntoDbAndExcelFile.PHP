@@ -37,7 +37,6 @@ $filename = "Próbkiata_" . date('Ymd') . ".xls";  //Excel file name
   
 //Language in excel
 header("Content-type: application/octet-stream; charset=UTF-8");
-header("Content-type: application/octet-stream; charset=UTF-8");
 header("Content-type: application/vnd.ms-excel; charset=UTF-8" );
 header("Content-Transfer-Encoding: binary; charset=UTF-8");
 header("Content-Disposition: attachment; filename=\"$filename\"; charset=UTF-8");  

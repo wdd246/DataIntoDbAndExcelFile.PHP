@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Formularz</title>
+    <title>Form</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
